@@ -1,0 +1,127 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Is anyone available?",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?\nYou can ask about courses: 'What courses do you offer?'\nEnrollment: 'How do I enroll?'\nPayment: 'Is it free?'\nSupport: 'I need help'\nOr just have some fun: 'Tell me a joke'.",
+        "Hi there! Ready to get started?\nTry asking:\n'What courses do you offer?'\n'How do I enroll?'\n'Is it free?'\n'I need help'\nOr 'Tell me a joke' to explore.",
+        "Hey! You can ask me about:\nCourses: 'Which subjects are available?'\nEnrollment: 'Can I register for a course?'\nPayment options: 'How much does it cost?'\nSupport: 'Can I talk to support?'\nOr hear something funny: 'Make me laugh'.",
+        "Welcome! How can I support you?\nHere are some things you can ask:\n'What courses do you offer?'\n'Where can I sign up?'\n'What are the payment options?'\n'Something isn't working'\nOr 'Say something funny.'"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Talk to you soon"
+      ],
+      "responses": [
+        "Goodbye! Keep learning and stay curious! Would you like a study tip before you go? You can say: 'Yes, give me a study tip' or 'No, thanks.'",
+        "See you later! Don't forget to revise. Want a quick quiz for practice? Just say: 'Yes, quiz me' or 'Maybe next time.'",
+        "Take care! Come back with more questions soon. Shall I send you a learning summary? You can say: 'Yes, send summary' or 'Not now.'"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it",
+        "Much appreciated"
+      ],
+      "responses": [
+        "You're welcome! Let me know if you have more questions. Would you like to continue learning? Say: 'Yes, continue learning' or 'No, I'm done.'",
+        "Glad I could help! Want to explore another topic? You can say: 'Yes, suggest another topic' or 'No, thanks.'",
+        "Anytime! Learning never stops. Interested in a challenge question? Just say: 'Yes, challenge me' or 'Maybe later.'"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses do you offer?",
+        "Which subjects are available?",
+        "Can you list the courses?",
+        "Do you have science or math?"
+      ],
+      "responses": [
+        "We offer courses in Math, Science, English, Programming, and more! Would you like beginner or advanced topics? You can say: 'Beginner courses please' or 'Show me advanced topics.'",
+        "You can learn Math, Coding, Physics, and even soft skills here. Do you want course recommendations based on your interest? Reply with: 'Yes, recommend courses' or 'No, just list them.'"
+      ]
+    },
+    {
+      "tag": "enrollment",
+      "patterns": [
+        "How do I enroll?",
+        "Can I register for a course?",
+        "Where can I sign up?",
+        "I want to join a class"
+      ],
+      "responses": [
+        "You can enroll by visiting the Courses section and clicking 'Enroll Now'. Need help choosing a course? Say: 'Yes, help me choose' or 'No, I know what I want.'",
+        "Just choose a course you like and follow the enrollment instructions. Want me to show you some popular courses? You can say: 'Yes, show popular courses' or 'No, thanks.'"
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "Is it free?",
+        "Do I have to pay?",
+        "How much does it cost?",
+        "What are the payment options?"
+      ],
+      "responses": [
+        "Some courses are free, while others are paid. We accept credit cards and digital payments. Want to view the free courses first? You can say: 'Yes, show me free courses' or 'What payment methods do you accept?'",
+        "You can pay using VISA, Mastercard, or online wallets. Scholarships are also available! Would you like to know how to apply for one? Say: 'Yes, how do I apply?' or 'Tell me about scholarships.'"
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "I need help",
+        "Can I talk to support?",
+        "Something isn't working",
+        "How do I contact customer service?"
+      ],
+      "responses": [
+        "You can contact support via the Help Center or email us at support@edtech.com. Would you like me to open the Help Center now? Say: 'Yes, open Help Center' or 'No, thanks.'",
+        "We’re here to help! Visit the Help section or message us directly. Do you want help with a specific issue? You can say: 'Yes, I have an issue' or 'No, just browsing.'"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Say something funny"
+      ],
+      "responses": [
+        "Why was the math book sad? Because it had too many problems. Want to hear another one? Say: 'Yes, tell another joke' or 'No, thanks.'",
+        "Why did the student eat his homework? Because the teacher said it was a piece of cake! Should I keep them coming? Reply: 'Yes, keep going' or 'Stop now.'"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses do you offer?",
+        "Which subjects are available?",
+        "Can you list the courses?",
+        "Do you have science or math?",
+        "Yes, recommend courses",
+        "No, just list them"
+      ],
+      "responses": [
+        "You can learn Math, Coding, Physics, and even soft skills here. Do you want course recommendations based on your interest? Reply with: 'Yes, recommend courses' or 'No, just list them.'"
+      ]
+    }
+  ]
+}
