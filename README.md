@@ -38,5 +38,8 @@ To Run the Model :
 ```bash
 python app.py
 ```
+Chat on Bash:
+ .```bash
+python chat.py```
 *Credits:*
 This repo is a modified version from https://github.com/patrickloeber/chatbot-deployment/
