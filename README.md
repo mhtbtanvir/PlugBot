@@ -1,21 +1,19 @@
-# PlugBot 💬
+PlugBot 💬
+PlugBot is a lightweight, customizable Flask-based chatbot backend designed to be easily plugged into any frontend application. It provides a flexible foundation for intelligent chat interactions in web apps, educational platforms, or custom deployments.
 
-**PlugBot** is a lightweight, customizable Flask-based chatbot backend designed to be plugged into any frontend application. It serves as a flexible foundation for intelligent chat interactions in web apps, educational platforms, or custom deployments.
+🔧 Features
+🧠 Intent-based chatbot logic using a JSON structure
 
----
+⚡ Fast Flask API for seamless frontend integration
 
-## 🔧 Features
+🧩 Easily pluggable into any frontend framework (React, Vanilla JS, Vue, etc.)
 
-- 🧠 Intent-based chatbot logic using a JSON structure
-- ⚡ Fast Flask API for integration
-- 🧩 Easily pluggable into any frontend (e.g. React, Vanilla JS, Vue)
-- 🔁 Supports both short and long-form questions
-- 🛠️ Fully customizable intents and responses
-- 🧪 Designed for educational, EdTech, or utility bots
+🔁 Supports both short, intent-driven queries and long-form conversational fallback
 
+🤖 Integrates Hugging Face DialoGPT-medium as a fallback for handling unexpected queries
 
+🛠️ Fully customizable intents and responses
 
----
 
 ## 🚀 Running Locally
 
@@ -38,6 +36,7 @@ To Run the Model :
 ```bash
 python app.py
 ```
+The chatbot will first attempt to answer queries based on your trained intent classification model. If it cannot confidently match an intent, it will fallback to Hugging Face’s DialoGPT-medium for a more conversational response.
 Chat on Bash:
  .```bash
 python chat.py```
